@@ -1,0 +1,116 @@
+$blue:    #4A90E2;
+$orange:  #F5A623;
+$green:   #52C58B;
+
+@import "reset";
+
+$chart_height:150px;
+
+
+@mixin bdrs($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+body{
+  background-color: #F4F4F4;
+  min-width: 300px;
+}
+
+@media (min-width: 500px){
+  body{
+    background-color: gray;
+  }
+  .container{
+    height: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    .chart{
+      padding: 50px 20px;
+      @include bdrs(10px 10px 0 0)
+    }
+    .detail{
+      background-color: #F4F4F4;
+      @include bdrs(0 0 10px 10px)
+    }
+  }
+}
+
+.container{
+
+}
+
+.chart{
+  padding: 30px 15px;
+  background-color: #fff;
+  .chart-item{
+    float: left;
+    width: 33.33%;
+    .chart-pic{
+      margin:0 auto 10px;
+      border: 1px solid;
+      position: relative;
+      height: $chart_height;
+      width: 60%;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      .chart-fill{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 66%;
+      }
+
+    }
+    .blue{
+      border-color: $blue;
+      .chart-fill{
+        background-color: $blue;
+      }
+    }
+    .orange{
+      border-color: $orange;
+      .chart-fill{
+        background-color: $orange;
+      }
+    }
+    .green{
+      border-color: $green;
+      .chart-fill{
+        background-color: $green;
+      }
+    }
+    .label{
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      color: #4A4A4A;
+      line-height: 150%;
+    }
+    .capacity{
+      font-size: 15px;
+      line-height: 150%;
+      font-family: "PTSans",sans-serif;
+      text-align: center;
+      color: #9B9B9B;
+    }
+  }
+}
+
+.detail{
+  font-size: 13px;
+  padding: 20px;
+  li{
+    line-height: 200%;
+    display: block;
+  }
+  .vps-key{
+    color: #4A4A4A;
+  }
+  .vps-value{
+    float: right;
+    color: #797979;
+  }
+}

@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "PingFang SC", "Microsoft Yahei UI", "Microsoft Yahei", "Helvetica", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: "Courier New", Courier, monospace;
+}
+
+:focus,
+:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+::-webkit-scrollbar {
+  z-index: 50;
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #eee;
+  transition: all 0.2s;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  transition: all 0.2s;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+body {
+  background-color: #F4F4F4;
+  min-width: 300px;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: gray;
+  }
+
+  .container {
+    height: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  .container .chart {
+    padding: 50px 20px;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .container .detail {
+    background-color: #F4F4F4;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+}
+.chart {
+  padding: 30px 15px;
+  background-color: #fff;
+}
+.chart .chart-item {
+  float: left;
+  width: 33.33%;
+}
+.chart .chart-item .chart-pic {
+  margin: 0 auto 10px;
+  border: 1px solid;
+  position: relative;
+  height: 150px;
+  width: 60%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.chart .chart-item .chart-pic .chart-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 66%;
+}
+.chart .chart-item .blue {
+  border-color: #4A90E2;
+}
+.chart .chart-item .blue .chart-fill {
+  background-color: #4A90E2;
+}
+.chart .chart-item .orange {
+  border-color: #F5A623;
+}
+.chart .chart-item .orange .chart-fill {
+  background-color: #F5A623;
+}
+.chart .chart-item .green {
+  border-color: #52C58B;
+}
+.chart .chart-item .green .chart-fill {
+  background-color: #52C58B;
+}
+.chart .chart-item .label {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #4A4A4A;
+  line-height: 150%;
+}
+.chart .chart-item .capacity {
+  font-size: 15px;
+  line-height: 150%;
+  font-family: "PTSans", sans-serif;
+  text-align: center;
+  color: #9B9B9B;
+}
+
+.detail {
+  font-size: 13px;
+  padding: 20px;
+}
+.detail li {
+  line-height: 200%;
+  display: block;
+}
+.detail .vps-key {
+  color: #4A4A4A;
+}
+.detail .vps-value {
+  float: right;
+  color: #797979;
+}
+
+/*# sourceMappingURL=vps.css.map */

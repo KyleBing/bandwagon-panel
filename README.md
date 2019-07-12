@@ -6,9 +6,11 @@
 ## 样子
 
 电脑端
+
 <img src="https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_pc.png?raw=true" width="">
 
 移动端
+
 <img src="https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_phone.png?raw=true" width="400"> 
 
 ## 需要做的

@@ -2,10 +2,11 @@
 
 > 主旨在方便用户查看 Bandwagon Host 信息
 
+
 ## 样子
 
-![pc上的样子]()
-![手机上的样子]()
+![pc上的样子](https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_pc.png?raw=true)
+![手机上的样子](https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_phone.png?raw=true)
 
 
 ## 需要做的

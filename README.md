@@ -5,9 +5,9 @@
 
 ## 样子
 
-![pc上的样子](https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_pc.png?raw=true)
-![手机上的样子](https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_phone.png?raw=true)
-
+电脑端
+<img src="https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_pc.png?raw=true" width=""> 
+<img src="https://github.com/KyleBing/bandwagon-panel/blob/master/github/bandwagon_panel_phone.png?raw=true" width="400"> 
 
 ## 需要做的
 

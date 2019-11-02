@@ -2,6 +2,8 @@
 
 > 主旨在方便用户查看 Bandwagon Host 信息
 
+例子地址： [http://kylebing.cn/tools/vps/](http://kylebing.cn/tools/vps/)
+
 
 ## 样子
 

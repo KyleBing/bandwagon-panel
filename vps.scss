@@ -13,7 +13,6 @@ $chart_height:150px;
   border-radius: $radius;
 }
 body{
-
   background-color: #F4F4F4;
   width: 500px;
 }
@@ -22,11 +21,11 @@ body{
   body{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: gray;
   }
   .container{
-    max-width: 500px;
+    width: 500px;
     .chart{
       padding: 50px 20px;
       @include bdrs(10px 10px 0 0)

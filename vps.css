@@ -81,12 +81,12 @@ body {
   body {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: gray;
   }
 
   .container {
-    max-width: 500px;
+    width: 500px;
   }
   .container .chart {
     padding: 50px 20px;

@@ -73,15 +73,15 @@ tt {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   background-color: #F4F4F4;
   width: 500px;
 }
 
 @media (min-width: 500px) {
   body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-color: gray;
   }
 

@@ -77,7 +77,7 @@ body {
   justify-content: center;
   align-content: center;
   background-color: #F4F4F4;
-  min-width: 400px;
+  width: 500px;
 }
 
 @media (min-width: 500px) {
@@ -86,9 +86,7 @@ body {
   }
 
   .container {
-    height: 100%;
     max-width: 500px;
-    margin: 50px auto;
   }
   .container .chart {
     padding: 50px 20px;

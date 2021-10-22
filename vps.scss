@@ -17,7 +17,7 @@ body{
   justify-content: center;
   align-content: center;
   background-color: #F4F4F4;
-  min-width: 400px;
+  width: 500px;
 }
 
 @media (min-width: 500px){
@@ -25,9 +25,7 @@ body{
     background-color: gray;
   }
   .container{
-    height: 100%;
     max-width: 500px;
-    margin: 50px auto;
     .chart{
       padding: 50px 20px;
       @include bdrs(10px 10px 0 0)

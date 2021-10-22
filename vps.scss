@@ -13,8 +13,11 @@ $chart_height:150px;
   border-radius: $radius;
 }
 body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-color: #F4F4F4;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 @media (min-width: 500px){

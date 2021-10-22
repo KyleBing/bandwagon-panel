@@ -73,8 +73,11 @@ tt {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-color: #F4F4F4;
-  min-width: 300px;
+  min-width: 400px;
 }
 
 @media (min-width: 500px) {
@@ -173,5 +176,3 @@ body {
   float: right;
   color: #797979;
 }
-
-/*# sourceMappingURL=vps.css.map */

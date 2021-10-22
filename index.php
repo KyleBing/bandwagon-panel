@@ -123,7 +123,7 @@ class BandwagonHostCommand{
 
 <script>
 window.onload = () => {
-    document.querySelector('.container').style.height = innerHeight + 'px';
+    document.body.style.height = innerHeight + 'px';
 }
 </script>
 </body>
